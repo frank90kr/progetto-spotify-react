@@ -24,10 +24,16 @@ const ComponentSideBar = () => {
 
         <Nav className="flex-column ">
           <Nav.Link href="#">
-            <i className="bi bi-house-door-fill me-1"></i>Home
+            <i className="bi bi-house-door-fill me-1 home"></i>
+            <Link className="text-white home ms-1" to="/">
+              Home
+            </Link>
           </Nav.Link>
           <Nav.Link href="#">
-            <i className="bi bi-book-fill me-1"></i>Your Library
+            <i className="bi bi-book-fill me-1"></i>
+            <Link className="text-white home ms-1" to="/">
+              Your Library
+            </Link>
           </Nav.Link>
         </Nav>
 
@@ -42,7 +48,10 @@ const ComponentSideBar = () => {
               onChange={handleChange}
               className="bg-white text-black"
             />
-            <InputGroup.Text id="basic-addon1"> GO</InputGroup.Text>
+            <InputGroup.Text className="go" id="basic-addon1">
+              {" "}
+              GO
+            </InputGroup.Text>
           </InputGroup>
         </Link>
       </div>

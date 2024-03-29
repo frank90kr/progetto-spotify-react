@@ -20,6 +20,7 @@ function App() {
 
             <Col xs={12} md={8} lg={9}>
               <Routes>
+                <Route path="/search-page/" element={<SearchPage />} />
                 <Route path="/search-page/:artistName" element={<SearchPage />} />
               </Routes>
               <SectionList />
