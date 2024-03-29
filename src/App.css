@@ -1,0 +1,86 @@
+body {
+  background: rgb(46, 63, 87);
+  background: linear-gradient(90deg, rgb(63, 86, 119) 0%, rgba(33, 44, 61, 1) 42%, rgb(15, 21, 29) 100%);
+}
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+}
+h2 {
+  color: rgb(250, 250, 250);
+  margin-top: 40px;
+}
+h6 {
+  font-weight: 700;
+  font-size: 0.7em;
+  color: #636a75;
+}
+h6:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+.player {
+  z-index: 1;
+  padding-top: 1em;
+  background-color: #212529;
+}
+.mypadding {
+  padding-left: 286px;
+}
+
+@media (max-width: 767px) {
+  .mypadding {
+    padding-left: 0;
+  }
+}
+.player-buttons {
+  height: 20px;
+  width: 20px;
+  margin-left: 2em;
+  margin-bottom: 1.2em;
+  padding: 0;
+}
+p {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+svg {
+  margin-left: 1em;
+}
+.signup-button {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.signup-button:hover {
+  color: white;
+  background-color: rgb(60, 211, 60);
+  border: 1px solid rgb(60, 211, 60);
+}
+
+.login-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.login-btn:hover {
+  color: black;
+  background-color: white;
+}
+.link {
+  text-decoration: none;
+}
